@@ -1,0 +1,25 @@
+.container {  display: grid;
+    grid-template-columns: 0.4fr 2.2fr 0.4fr;
+    grid-template-rows: 0.4fr 2.2fr 0.4fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Logo Caption Hamburger"
+      "Content Content Content"
+      "About Footer Legal";
+  }
+  
+  .Content { grid-area: Content; }
+  
+  .Logo { grid-area: Logo; }
+  
+  .Caption { grid-area: Caption; }
+  
+  .Hamburger { grid-area: Hamburger; }
+  
+  .Footer { grid-area: Footer; }
+  
+  .About { grid-area: About; }
+  
+  .Legal { grid-area: Legal; }
+  
