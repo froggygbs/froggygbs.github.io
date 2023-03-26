@@ -1,3 +1,8 @@
+@font-face {
+  font-family: MavenPro-Regular;
+  src: url(/fonts/MavenPro-Regular.ttf);
+}
+
 .container {  display: grid;
     grid-template-columns: 0.4fr 2.2fr 0.4fr;
     grid-template-rows: 0.4fr 2.2fr 0.4fr;
