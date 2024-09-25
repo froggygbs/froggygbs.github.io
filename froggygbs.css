@@ -22,7 +22,7 @@
   
   .Caption {
     grid-area: Caption;
-    font-size: larger;
+    font-size: 3em;
     }
   
   .Hamburger { grid-area: Hamburger; }
