@@ -14,11 +14,16 @@
       "About Footer Legal";
   }
   
-  .Content { grid-area: Content; font-size: large;}
+  .Content {
+    grid-area: Content;
+  }
   
   .Logo { grid-area: Logo; }
   
-  .Caption { grid-area: Caption; }
+  .Caption {
+    grid-area: Caption;
+    font-size: large;
+    }
   
   .Hamburger { grid-area: Hamburger; }
   
