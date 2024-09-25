@@ -14,7 +14,7 @@
       "About Footer Legal";
   }
   
-  .Content { grid-area: Content; }
+  .Content { grid-area: Content; font-size: large;}
   
   .Logo { grid-area: Logo; }
   
@@ -29,7 +29,4 @@
   .Legal { grid-area: Legal; }
   
   body {font-family: 'MavenPro-Regular', sans-serif;
-  }
-  .Caption {
-    font-size: large;
   }
