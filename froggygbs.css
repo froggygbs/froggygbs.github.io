@@ -23,6 +23,7 @@
   .Caption {
     grid-area: Caption;
     font-size: 5rem;
+    color: blueviolet;
     }
   
   .Hamburger { grid-area: Hamburger; }
